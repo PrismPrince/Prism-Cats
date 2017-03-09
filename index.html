@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Dave Dane Pacilan">
+
+  <title>Prism Cats</title>
+
+  <link rel="icon" href="img/fav.ico">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!--link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"-->
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav id="nav" class="navbar navbar-fixed-top" data-spy="affix" data-offset-top="70">
+    <div class="container">
+      <div class="navbar-header">
+
+        <!-- Collapsed Hamburger -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Branding Image -->
+        <a class="navbar-brand" href=""><img src="img/fav.ico"></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="app-navbar-collapse">
+        <!-- Left Side Of Navbar -->
+        <ul class="nav navbar-nav">
+          <li><a href="#cat-carousel">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#featured">Featured Kitties</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+
+        <!-- Right Side Of Navbar -->
+        <ul class="nav navbar-nav navbar-right">
+          <!-- Authentication Links -->
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="cat-carousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#cat-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#cat-carousel" data-slide-to="1"></li>
+      <li data-target="#cat-carousel" data-slide-to="2"></li>
+      <li data-target="#cat-carousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/ps1.jpg">
+      <div class="carousel-caption">
+        <p>Cats are connoisseurs of comfort.</p>
+        <h2 class="hidden-xs">James Herriot</h2>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/ps2.jpg">
+      <div class="carousel-caption">
+        <p>What greater gift than the love of a cat.</p>
+        <h2 class="hidden-xs">Charles Dickens</h2>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/ps3.jpg">
+      <div class="carousel-caption">
+        <p>You cannot live with a paw in each world.</p>
+        <h2 class="hidden-xs">Erin Hunter</h2>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="img/ps4.jpg">
+      <div class="carousel-caption">
+        <p>Cats are intended to teach us that not everything in nature has a purpose.</p>
+        <h2 class="hidden-xs">Garrison Keillor</h2>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div id="about" class="jumbotron">
+    <div class="container">
+      <div class="col-sm-6 hidden-xs text-center">
+        <img class="img-responsive" src="img/icon-cat.png">
+      </div>
+      <div class="col-sm-6 text-center">
+        <h1>About</h1>
+        <p>Cats are often valued by humans for companionship and for their ability to hunt vermin. There are more than 70 cat breeds!</p>
+        <p>Different associations proclaim different numbers according to their standards.</p>
+        <p>Explore the site to find breeds of cat that fits to your personality.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="featured" class="jumbotron">
+    <div class="opacity">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">Featured Kitties</h1>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Siberian</h3>
+            </div>
+            <img class="img-responsive" src="img/ft1.jpg">
+            <div class="panel-body">
+              <h3>Mitty</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <b>Location:</b> Guadalupe, Cebu City, Cebu
+              </li>
+              <li class="list-group-item">
+                <b>Age:</b> 1 Year
+              </li>
+              <li class="list-group-item">
+                <b>Sex:</b> Female
+              </li>
+              <li class="list-group-item">
+                <b>Size:</b> Medium
+              </li>
+            </ul>
+            <div class="panel-footer text-right">
+              <a class="buy" href="#">
+                <b>Buy <span class="glyphicon glyphicon-usd"></span>100</b>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Munchkin</h3>
+            </div>
+            <img class="img-responsive" src="img/ft2.jpg">
+            <div class="panel-body">
+              <h3>Tom</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <b>Location:</b> Labangon Cebu City, Cebu
+              </li>
+              <li class="list-group-item">
+                <b>Age:</b> 9 Months
+              </li>
+              <li class="list-group-item">
+                <b>Sex:</b> Male
+              </li>
+              <li class="list-group-item">
+                <b>Size:</b> Small
+              </li>
+            </ul>
+            <div class="panel-footer text-right">
+              <a class="buy" href="#">
+                <b>Buy <span class="glyphicon glyphicon-usd"></span>100</b>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Turkish Van</h3>
+            </div>
+            <img class="img-responsive" src="img/ft3.jpg">
+            <div class="panel-body">
+              <h3>Kevin</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <b>Location:</b> Banawa, Cebu City, Cebu
+              </li>
+              <li class="list-group-item">
+                <b>Age:</b> 1 Year and 6 Months
+              </li>
+              <li class="list-group-item">
+                <b>Sex:</b> Male
+              </li>
+              <li class="list-group-item">
+                <b>Size:</b> Small
+              </li>
+            </ul>
+            <div class="panel-footer text-right">
+              <a class="buy" href="#">
+                <b>Buy <span class="glyphicon glyphicon-usd"></span>120</b>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Singapura</h3>
+            </div>
+            <img class="img-responsive" src="img/ft4.jpg">
+            <div class="panel-body">
+              <h3>Felix</h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <b>Location:</b> Pari-an, Cebu City, Cebu
+              </li>
+              <li class="list-group-item">
+                <b>Age:</b> 1 Year and 3 Months
+              </li>
+              <li class="list-group-item">
+                <b>Sex:</b> Male
+              </li>
+              <li class="list-group-item">
+                <b>Size:</b> Medium
+              </li>
+            </ul>
+            <div class="panel-footer text-right">
+              <a class="buy" href="#">
+                <b>Buy <span class="glyphicon glyphicon-usd"></span>120</b>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center more">
+          <div class="col-sm-12">
+            <a href="cats/index.html">View More Kitties!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="jumbotron">
+    <div class="container">
+      <div class="col-sm-8 col-sm-offset-2">
+        <h1 class="text-center">Contact Us</h1>
+        <input placeholder="Name" type="text">
+        <input placeholder="E-mail" type="text">
+        <textarea placeholder="Message" rows="5"></textarea>
+        <button>Send Message</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center">
+    <div class="container">
+      <h3>Prism Cats <span class="glyphicon glyphicon-copyright-mark"></span> 2016</h3>
+      <a href="http://www.facebook.com/davedane.hood">
+        <img class="img-responsive" src="img/facebook.png" alt="Facebook">
+      </a>
+      <a href="http://www.github.com/PrismPrince">
+        <img class="img-responsive" src="img/github.png" alt="GitHub">
+      </a>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    $('body').scrollspy({target: "#nav", offset: 50});
+    $("#nav a").on('click', function(e) {
+      if (this.hash !== "") {
+        e.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        },
+        800);
+      }
+    });
+  </script>
+
+</body>
+</html>
